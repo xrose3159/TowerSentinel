@@ -12,24 +12,6 @@
 
 本项目使用GitHub Pages进行展示，访问地址：https://xrose3159.github.io/TowerSentinel/
 
-## GitHub Pages 部署说明
-
-如果您想要部署此项目到GitHub Pages，请按照以下步骤操作：
-
-1. 在仓库设置中启用GitHub Pages
-   - 进入仓库页面
-   - 点击"Settings"（设置）
-   - 滚动到"GitHub Pages"部分
-   - 在"Source"下选择"main"分支
-   - 点击"Save"（保存）
-
-2. 等待部署
-   - GitHub会自动部署您的网站
-   - 部署完成后，您将在设置页面看到网站的URL
-
-3. 访问您的网站
-   - 使用GitHub提供的URL访问您的网站：https://xrose3159.github.io/TowerSentinel/
-
 ## 项目结构
 
 ```
@@ -39,24 +21,6 @@ TowerSentinel/
 ├── images/        # 图片资源目录
 └── README.md      # 项目说明文件
 ```
-
-## 本地预览
-
-1. 克隆仓库到本地
-```
-git clone https://github.com/xrose3159/TowerSentinel.git
-```
-
-2. 进入项目目录
-```
-cd TowerSentinel
-```
-
-3. 在浏览器中打开`show.html`文件即可预览
-
-## 更新展示内容
-
-如需更新展示内容，可以直接修改`show.html`文件，或替换`images`目录中的图片资源。
 
 ## 核心技术
 
