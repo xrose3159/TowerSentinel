@@ -139,11 +139,14 @@
             font-size: 1.3em;
         }
         .tech-image {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-            margin-top: 15px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            max-width: 100%;       /* 使图片的最大宽度为容器宽度 */
+            height: auto;          /* 保持图片的比例 */
+            border-radius: 5px;    /* 圆角效果 */
+            margin-top: 15px;      /* 上边距 */
+            margin-left: auto;     /* 左右自动 margin 使其居中 */
+            margin-right: auto;
+            display: block;        /* 使图片成为块级元素，这样才能居中 */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* 添加阴影 */
         }
         
         /* 响应式设计 */
@@ -424,20 +427,11 @@
 
         <div class="section">
             <h2 class="section-title">合作应用</h2>
-            <p>以下展示了我们项目已有的部分合作成果：</p>
-            
+            <p>部分合作成果：</p>
             <div class="tech-grid">
                 <div class="tech-item">
-                    <h4>天津三元金属公司</h4>
-                    <img src="images/天津三元金属公司合作.png" alt="天津三元金属公司合作" class="tech-image">
-                </div>
-                <div class="tech-item">
                     <h4>北京优诺科技有限公司</h4>
-                    <img src="images/北京优诺科技有限公司.png" alt="北京优诺科技有限公司" class="tech-image">
-                </div>
-                <div class="tech-item">
-                    <h4>广东农乐汇公司</h4>
-                    <img src="images/广东农乐汇公司合作.png" alt="广东农乐汇公司合作" class="tech-image">
+                    <img src="images/北京优诺科技有限公司.png" alt="北京优诺科技有限公司" class="tech-image" style="width: 396px; height: 550px;">
                 </div>
             </div>
         </div>          
